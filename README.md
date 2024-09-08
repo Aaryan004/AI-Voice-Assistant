@@ -66,7 +66,7 @@ Ensure that you have the following installed:
     Once everything is installed and set up, you can start the voice assistant by running the following command:
 
    ```bash 
-   python assistant1.py`
+   python assistant.py
    ```
 ## Interacting with the Assistant
 
