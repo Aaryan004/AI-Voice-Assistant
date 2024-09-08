@@ -38,3 +38,15 @@ Ensure that you have the following installed:
    ```bash
    git clone https://github.com/your-username/voice-assistant-ai.git
    cd voice-assistant-ai
+2. **Install Required Dependencies**:
+   The required libraries are listed in the requirements.txt file. Install them with the following command:
+   '''bash
+   pip install -r requirements.txt
+   This will install the necessary packages:
+
+   opencv-python (For webcam video processing)
+   langchain, langchain-openai, langchain_google_genai (For natural language understanding and model integration)
+   pyaudio (For microphone input and text-to-speech)
+   SpeechRecognition (For handling voice input)
+   Whisper model from GitHub (For voice-to-text conversion)
+   
